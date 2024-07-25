@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "roboto-lighter";
+    src: url(./assets/Roboto-Light.ttf);
+}
+
+body,
+html {
+    line-height: 1.4;
+    font-weight: 300;
+    
+}
+
+body {
+    display: flex;
+    gap: 20px;
+}
+
+header {
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-family: "roboto-lighter";
+    color: gray;
+    font-weight: 200;
+}
+
+header h1 {
+    padding-bottom: 20px;
+    font-weight: lighter;
+    color: rgb(93, 89, 89);
+    border-bottom: 1px solid #ccc;
+
+}
+
+nav {
+    height: 100vh;
+    padding: 10px;
+    width: 18vw;
+}
+
+header a {
+    text-decoration: none;
+    color: gray;
+}
+
+header ul li {
+    list-style-type: none;
+    font-size: 18px;
+    color: #ccc;
+    font-family: "roboto-lighter";
+    border-bottom: 1px solid #ccc;
+    line-height: 50px;
+}
+
+header ul li:hover {
+    background: #ccc;
+    transition: 0.3s ease-in-out;
+}
+
+.main {
+    font-family: "roboto-lighter";
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.main h2 {
+    border-bottom: 1px solid #ccc;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main p {
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.main ul li {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+#What-you-should-already-know {
+    margin-top: 60px;
+}
+
+#JavaScript_and_Java {
+    margin-top: 60px;
+}
+
+#Hello_world {
+    margin-top: 60px;
+
+}
+
+.function-example {
+    background-color: #f3ecec;
+    margin-top: 20px;
+    padding: 10px;
+    width: 60vw;
+}
+
+#Variables {
+    margin-top: 60px;
+    margin-bottom: 250px;
+}
